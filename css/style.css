@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+    list-style: none;
+
+}
+.clear-fix{
+    clear: both;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+
+ 
+}
+#home .navbar{
+    width: 100%;
+   padding-block:8px ;
+    /* padding: 20px 30px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+   background-color: #8d7247;
+   
+}
+#home .navbar .nav-logo{
+    float: left;
+}
+#home .navbar .nav-logo img{
+    width: 170px; 
+    margin-left:150px ;
+}
+#home .navbar .nav-menu {
+  float: right;
+  margin-right: 120px;
+}
+#home .navbar .nav-menu li{
+    padding: 20px 10px;
+  display: inline-block;
+ 
+}
+#home .navbar .nav-menu li a{
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+}
+#home .navbar .nav-menu ul .line::after{
+    content: '';
+   position: absolute;
+   background-color: #c8b389 ;
+   top: 0;
+   left: 62.3%;
+   height: 3px;
+   width: 70px;
+
+}
+
+#home .navbar .nav-menu li a:hover{
+    color:#ae9768;
+}
+ 
+
+#home .contant{
+     
+    text-align: center;
+    color: #fff;
+   padding-top: 200px ;
+    
+  
+
+}
+#home .contant span{
+    padding: 20px 0;
+    font-size: 22px;
+}
+#home .contant h1{
+ font-size: 75px;
+ font-weight: 400;
+ padding: 20px 0;
+}
+ 
+#home .contant .btn1 ,#home .contant .btn2{
+    padding: 20px 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0;
+ 
+}
+#home .contant .btn1:hover ,#home .contant .btn2:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+#home .contant .btn1{
+    background-color: #8e7754;
+    border:none ;
+    color: #fff;
+     
+}
+#home .contant .btn2{
+     border: 2px solid #fff;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+#home .contant p{
+    font-size: 22px;
+    font-weight: 300;
+}
+/* //////////////////////////////////////// */
+#about{
+    height: 90vh;
+display: inline-block;
+padding: 60px ;
+ 
+ 
+}
+#about .about-img{
+    width: 50%;
+   float: left;
+}
+#about .about-img img{
+    width: 80%;
+    padding: 30px 80px ;
+}
+#about .about-content{
+   float: left;
+    width: 50%;
+    padding: 90px 0;
+}
+#about .about-content h2{
+    font-size: 30px;
+    color: #2b2929;
+}
+#about .about-content p{
+    padding: 40px 70px 40px 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #52504d;
+}
+#about .about-content li{
+    padding: 15px 10px;
+    color: #52504d;
+    font-size: 18px;
+}
+#about .about-content i{
+    padding: 0 10px;
+    font-size: 25px;
+}
+/* /////////////////////////////////// */
+#location{
+    background: #f8f8f8;
+    padding:60px 80px ;
+    display: inline-block;
+}
+#location .location-info{
+    width: 50%;
+    float: left;
+    padding: 60px 0px;
+}
+#location .location-info h2{
+    padding: 80px 60px 20px 60px;
+}
+#location .location-info p{
+    padding: 20px 90px 10px 60px;
+    line-height: 30px;
+    font-size: 18px;
+    color:#52504d; ;
+}
+#location .location-img{
+    width: 50%;
+    float: left;
+ 
+}
+#location .location-img img{
+    width: 90%;
+    padding: 40px  0;
+}
+/* /////////////////////////////// */
+#gallery{
+    padding: 60px 100px;
+    text-align: center;
+    margin-left: 60px;
+    
+}
+#gallery .information{
+    text-align: center;
+    padding: 50px 0;
+}
+#gallery .information h2{
+    font-weight: 400;
+    font-size: 28px;
+}
+#gallery .information p{
+    color: #979595;
+    font-size: 16px;
+    padding: 20px 0;
+}
+#gallery .componant{
+
+   width: 33%;
+   float: left;
+   text-align: center;
+
+  
+}
+#gallery .componant img{
+    width: 95%;
+}
+#gallery .componant h3{
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #242424;
+
+}
+#gallery .componant p{
+ font-size: 16px;
+ color: #615d5d;
+ line-height: 30px;
+}
+/* /////////////////////////////////*/
+#blog{
+    height: 65vh;
+    padding: 100px 100px;
+    background-color: #f8f8f8;
+}
+#blog .blog-info{
+    width: 50%;
+    float: left;
+    
+}
+#blog .blog-info h2{
+    font-weight: 400;
+    color: #2f2d2d;
+}
+#blog .blog-info p{
+    padding: 30px 50px;
+    color: #878585;
+    font-size: 15px;
+    margin-left: -50px;
+    line-height: 30px;
+}
+#blog .blog-info h3{
+    font-weight: 400;
+    font-size: 15px;
+    color: #4e4d4d;
+}
+#blog .blog-info ul{
+    padding: 40px 0;
+}
+#blog .blog-info ul li{
+    padding: 15px 0;
+    color: #4e4d4d;
+}
+#blog .blog-info i{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #8e7754;
+    text-align: center;
+    
+}
+#blog .blog-img{
+    width: 50%;
+    float: left;
+    
+    padding: 60px 0;
+}
+#blog .blog-img img{
+    width: 100%;
+}
+/* //////////////////////////////////////////////////////////// */
+#contact{
+ padding:70px 40px ;
+ background-color: #353330;
+height: 40vh;
+ 
+}
+#contact .about-us ,#contact .special,#contact .hours,#contact .details{
+    width: 20%;
+    float: left;
+   margin-left: 60px;
+    color:#969696;
+    font-size: 16px;
+    
+}
+#contact .about-us h3 ,#contact .special h3,#contact .hours h3,#contact .details h3{
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+#contact .about-us p{
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+#contact .special li,#contact .hours li,#contact .details li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    padding: 10px 0;
+    font-size: 14px;
+   
+    color:#969696;
+}
+/* //////////////////////////////////////////// */
+#footer{
+    height: 40vh;
+    background-color: #2e2b2b;
+    color: #797979;
+    text-align: center;
+    padding-top: 40px;
+ 
+}
+#footer h4{
+  padding: 30px 0;
+  font-size: 16px;
+       
+  font-weight: 200;
+}
+#footer i{
+    font-size: 35px;
+    margin-left: 5px;
+     
+    
+}
